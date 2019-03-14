@@ -5,33 +5,6 @@
 <p>I'm hosted with GitHub Pages.</p>
 <p>And playing with GitHub Desktop and its a pain</p>
 <p>And playing with GitHub web need to wait up to 40 secs after commit</p>
-  
-  <?php
-
-$request = new HttpRequest();
-$request->setUrl('https://api.samsara.com/v1/sensors/list');
-$request->setMethod(HTTP_METH_POST);
-
-$request->setQueryData(array(
-  'access_token' => 'zuSyoZH2rVgbaY7MIYZfe69ufp9SsL'
-));
-
-$request->setHeaders(array(
-  'Postman-Token' => 'da579b84-16e2-49f7-849a-393c7e3350aa',
-  'cache-control' => 'no-cache',
-  'Access-Control-Allow-Origin' => '*',
-  'Content-Type' => 'application/json'
-));
-
-$request->setBody('{"groupId":25628}');
-
-try {
-  $response = $request->send();
-
-  echo $response->getBody();
-} catch (HttpException $ex) {
-  echo $ex;
-}  
 
 </body>
 </html>
