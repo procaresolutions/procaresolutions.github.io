@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type = "text/javascript" src = "apiscript.js" ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- <script type = "text/javascript" src = "usenodejs.js" ></script>
+<script type = "text/javascript" src = "usefetch.js" ></script>
+<script type = "text/javascript" src = "usexml.js" ></script> -->
+<script type = "text/javascript" src = "usejquery.js" ></script>
+	<script>
+		//$.ajax(settings).done(function (response) {
+	//console.log(response);
+	//});
+	document.write(linebreak);
+	document.write('settings from apicall:  ');
+	document.write(settings.url);
+	document.write(settings.method);
+	document.write(settings.data);
+	document.write(linebreak);
+	</script>
+
+<!--<script>
+var settings = {
+  "url": "https://api.samsara.com/v1/sensors/list?access_token=zuSyoZH2rVgbaY7MIYZfe69ufp9SsL",
+  "method": "POST",
+  "timeout": 0,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "data": "{\"groupId\":25628}",};
+</script> -->
+
+<!-- <script>
+function DisplaySettings() {
+	alert("Using external java file function for this alert... Hello World");
+
+	document.write('In Heading... should show contents of settings var:');
+	document.write(linebreak);
+	document.write(settings.url);
+	document.write(settings.method);
+	document.write(settings.data);
+	document.write(linebreak); }
+</script> -->
+
+<!-- <script>
+const ul = document.getElementById('sensors'); // Get the list where we will place our sensors
+const url = 'https://api.samsara.com/v1/sensors/list?access_token=zuSyoZH2rVgbaY7MIYZfe69ufp9SsL&groupid=25628'; // Receive full sensor list
+var linebreak = “<br />”
+
+document.write(url);
+document.write(linebreak);
+document.write(settings);
+document.write('testing VIM editor ad FileZilla');
+
+fetch(url)
+  .then(function(data) {
+    // Here you get the data to modify as you please
+    })
+//  })
+  .catch(function(error) {
+    // If there is any error you will catch them here
+  });
+
+
+</script> -->
+
+</head>
+<body> 
+	
+	<!-- <div id="chartContainer" style="height: 370px; max-width: 920px; margin:0px auto;"></div> -->
+
+<p>This is the start of the web page body </p>	
+<!-- <input type = "button" onclick = "DisplaySettings()" value = "Display Settings Var" /> -->
+<br></br>
+
+</body>
+</html>
