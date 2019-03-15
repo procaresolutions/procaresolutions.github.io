@@ -8,7 +8,7 @@ var settings = {
   "method": "POST",
   "headers": {
     "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "*",
+//    "Access-Control-Allow-Origin": "*",
     "cache-control": "no-cache"
   },
   "processData": false,
